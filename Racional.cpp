@@ -89,7 +89,6 @@ const Racional Racional::operator *(const Racional& r){
 	int num, den;
 	num = numerador * r.numerador;
 	den = denominador * r.denominador;
-//	simplificar(num,den);
 	return Racional(num, den);
 }
 
