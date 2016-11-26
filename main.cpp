@@ -11,7 +11,7 @@ using std::vector;
 
 int main(int argc, char*argv[]){
 
-	cout<<"lol";
+	cout<<"lol"<<endl;
 
 	return 0;
 }
