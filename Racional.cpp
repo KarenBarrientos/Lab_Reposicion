@@ -11,6 +11,9 @@ using std::endl;
 using std::string;
 using std::stringstream;
 
+Racional::~Racional(){
+}
+
 Racional::Racional(int num, int den){
 	if(den < 0){
 		den*=-1;

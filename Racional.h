@@ -12,6 +12,7 @@ class Racional{
 		int denominador;
 	public:
 		Racional(int, int);
+		virtual ~Racional();
 		const double toDouble()const;
 		const Racional operator +(const Racional&);
 		const Racional operator -(const Racional&);
